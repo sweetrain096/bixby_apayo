@@ -1,4 +1,4 @@
-module.exports.function = function getHospitalInfo (hpId, hpName, hpTel, hpAddr, hpEndTime) {
+module.exports.function = function getHospitalInfo (hpId) {
   let name, tel, addr, endtime;
   let result = {}
   name = "A병원"

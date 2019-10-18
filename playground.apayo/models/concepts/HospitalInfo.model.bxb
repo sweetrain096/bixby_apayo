@@ -1,7 +1,19 @@
 structure (HospitalInfo) {
-  description (병원의 정보들)
-  property (name) {
-    type (HospitalNames)
-    min (Optional) max (One)
-  }
+	description (병원의 정보들)
+	property (name) {					// 병원 이름
+		type (HospitalNames)
+		min (Required) max (One)
+	}
+	property (addr) {					// 병원 주소
+		type (DutyAddr)
+		min (Optional) max (One)
+	}
+	property (dutytel) {			// 병원 전화번호
+		type (DutyTel)
+		min (Optional) max (One)
+	}
+  property (endtime) {			// 병원 마감시간
+		type (EndTime)
+		min (Optional) max (One)
+	}
 }

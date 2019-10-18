@@ -1,0 +1,7 @@
+structure (HospitalInfo) {
+  description (병원의 정보들)
+  property (name) {
+    type (HospitalNames)
+    min (Optional) max (One)
+  }
+}

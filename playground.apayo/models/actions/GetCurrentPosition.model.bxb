@@ -1,5 +1,5 @@
 action (GetCurrentPosition) {
-  description (__DESCRIPTION__)
+  description (현재 위치를 가져온다.)
   type(Search)
   collect {
     input (point) {

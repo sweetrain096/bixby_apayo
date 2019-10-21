@@ -1,4 +1,7 @@
-module.exports.function = function getHospitalInfo (hpId, hpName, hpTel, hpAddr, hpEndTime) {
+module.exports.function = function getHospitalInfo (hospitalSummaryInfo, currentPosition, ordinal) {
+  const console = require("console")
+  console.log(hospitalSummaryInfo)
+  console.log(ordinal)
   let name, tel, addr, endtime;
   let result = {}
   name = "A병원"

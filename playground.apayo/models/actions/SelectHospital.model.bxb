@@ -4,14 +4,19 @@ action (SelectHospital) {
   collect {
     input (hospital) {
       type (NearHospitalList)
-      min (Required) max (One)
+      min (Optional) max (One)
       default-init{
         intent{
           goal: GetHospitalList
         }
       }
     }
-    
+    input (selectNum){
+      type(entity.Ordinal)
+      min (Optional) max (One)
+    }
   }
-  output (HpID)
+  
+  
+  output (HospitalSummaryInfo)
 }

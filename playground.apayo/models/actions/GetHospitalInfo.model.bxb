@@ -2,8 +2,10 @@ action (GetHospitalInfo) {
   description (병원 정보를 찾는다.)
   type(Search)
   collect {
-    input (hpId) {
-      type (HpID)
+    
+
+    input (hospitalSummaryInfo) {
+      type (HospitalSummaryInfo)
       min (Required) max (One)
       default-init{
         intent{
@@ -12,7 +14,15 @@ action (GetHospitalInfo) {
       }
     }
     // hpId, hpName, hpTel, hpAddr, hpEndTime
-
+    input(currentPosition){ //현재 위치 보내주기
+      type(MyPos)
+      min (Required) max (One)
+    }
+    
+    input(ordinal){
+      type(entity.Ordinal)
+      min (Optional) max (One)
+    }
   }
   output (HospitalInfo)
 }

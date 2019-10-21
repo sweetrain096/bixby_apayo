@@ -1,0 +1,5 @@
+train (t-xpuhhcuf2bcm2omfm3in6nb4z) {
+  utterance ([g:NearHospitalList] 유성구 병원 알려줘)
+  plan (Y2BkUCzISaxML8ovzUvRSyxIrMzX80tNLPLILy7ILEnM8cksLmEAAUYQAQA=)
+  last-modified (1571386187890)
+}

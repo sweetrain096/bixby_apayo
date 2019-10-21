@@ -4,4 +4,8 @@ structure (MyPosition) {
     type (MyPos)
     min (Optional) max (One)
   }
+  property (locationName) {
+    type (LocationName)
+    min (Optional) max (One)
+  }
 }

@@ -1,5 +1,4 @@
 train (t-8cn4g3a2m5a77m0chvsvg0fwc) {
-  utterance ([g:HospitalInfo] 첫번째 보여줘)
-  plan (Y2BkkC3ISaxML8ovzUvRSyxIrMzX88gvLsgsSczxzEvLZwABRhABAA==)
-  last-modified (1571379091634)
+  utterance ("[g:GetHospitalInfo:continue:get] (첫번째)[v:entity.Ordinal:1] 보여줘")
+  last-modified (1571635167240)
 }

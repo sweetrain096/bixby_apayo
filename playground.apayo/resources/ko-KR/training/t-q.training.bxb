@@ -1,0 +1,5 @@
+train (t-qpzuxswtgl314gn4xj0km3g6x) {
+  utterance ("[g:GetDgHospitalInfoList] 가까운 (내과)[v:DgName] 알려줘")
+  plan (Y2BhkC3ISaxML8ovzUvRSyxIrMzX88gvLsgsSczxzEvLZ1DDkHZPLXFJR1bjk1lcwiCOoc4l3S8xN5VBEUPCLzWxCKYfrJeZgZGBCUgyAGkQhAAmsCgDAA==)
+  last-modified (1571643680048)
+}

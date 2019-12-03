@@ -1,3 +1,3 @@
-integer (SelectNum) {
-  description (선택한 병원 번호 != id)
+text (SelectNum){
+  description (병원 순서 선택)
 }

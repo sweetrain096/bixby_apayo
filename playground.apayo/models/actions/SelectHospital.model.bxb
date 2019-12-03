@@ -8,13 +8,14 @@ action (SelectHospital) {
       default-init{
         intent{
           goal: GetHospitalList
+          // route: GetHospitalList
         }
       }
     }
-    input (selectNum){
-      type(entity.Ordinal)
-      min (Optional) max (One)
-    }
+    // input (selectNum){
+    //   type(entity.Ordinal)
+    //   min (Optional) max (One)
+    // }
   }
   
   

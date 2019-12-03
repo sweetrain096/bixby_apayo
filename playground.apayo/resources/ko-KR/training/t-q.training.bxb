@@ -1,5 +1,10 @@
+train (t-q0144km3qyb5p0nkp5s0zyzf3) {
+  utterance ("[g:GetHospitalInfo,r:GetHospitalList] (첫번째)[v:entity.Ordinal:1] 보여줘")
+  plan (fY7NCsIwEISnVq1nD95EBc95DRX8gz7BYqME0iQkaSFvb4w/IEFPuzPzMbuYYG4khZvVnWoYGQqabbUzwpPcqavGMos33H8R658Fdde2ZEOiZhl1CGftsMj8mkt++ZzAKgOOnOw73gvn//+YiGkvesaVFz6wk22EisUVCgxQYogRxlEh6ofz1AWQHLy2Ms4q+rgD)
+  last-modified (1571962396100)
+}
 train (t-qpzuxswtgl314gn4xj0km3g6x) {
   utterance ("[g:GetDgHospitalInfoList] 가까운 (내과)[v:DgName] 알려줘")
   plan (Y2BhkC3ISaxML8ovzUvRSyxIrMzX88gvLsgsSczxzEvLZ1DDkHZPLXFJR1bjk1lcwiCOoc4l3S8xN5VBEUPCLzWxCKYfrJeZgZGBCUgyAGkQhAAmsCgDAA==)
-  last-modified (1571643680048)
+  last-modified (1571721332282)
 }

@@ -1,6 +1,6 @@
 action (GetDgHospitalInfoList){
   description (진료 과목에 해당하는 병원 리스트를 가져온다.)
-  type(Search)
+  type(Constructor)
   collect{
     input (nearHospitalList) {
       type (NearHospitalList)

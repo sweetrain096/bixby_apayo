@@ -1,5 +1,6 @@
 train (t-xpuhhcuf2bcm2omfm3in6nb4z) {
-  utterance ([g:NearHospitalList] 유성구 병원 알려줘)
-  plan (Y2BkUCzISaxML8ovzUvRSyxIrMzX80tNLPLILy7ILEnM8cksLmEAAUYQAQA=)
-  last-modified (1571386187890)
+  utterance ("[g:GetFindPosition] {[g:LocationName] (유성구)[v:LocationName]} 병원 알려줘")
+  plan (Y2BlkC3ISaxML8ovzUvRSyxIrMzX88lPTizJzM/zS8xNJSQtjSHtWxmQX5wJUsCggCHpnlrilpmXAlchUpZZppeemq8XnJpYlJwRlJoOEmVmYARiFgYGBiYgzQPkQVjMQJoRxAMA)
+  enabled (false)
+  last-modified (1571905070163)
 }

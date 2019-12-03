@@ -19,10 +19,6 @@ action (GetHospitalInfo) {
       min (Required) max (One)
     }
     
-    input(ordinal){
-      type(entity.Ordinal)
-      min (Optional) max (One)
-    }
   }
   output (HospitalInfo)
 }

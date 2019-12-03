@@ -1,4 +1,4 @@
-module.exports.function = function getHospitalList (position, hospitalLists, hpId) {
+module.exports.function = function getHospitalList (position, selectNum) {
   const console = require("console")
   let listName, listId
   let results = new Array
@@ -13,7 +13,9 @@ module.exports.function = function getHospitalList (position, hospitalLists, hpI
     info['id'] = listId[i]
     results.push(info)
   }
-  
+  if (selectNum){
+    return results[selectNum]
+  }
   console.log(results)
   return results
 }
